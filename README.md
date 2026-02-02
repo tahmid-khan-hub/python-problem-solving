@@ -4,8 +4,8 @@ This repository contains my Python practice code while learning Python from basi
 --- 
 
 # Purpose
--- Learn Python basics
--- Practice problem solving
--- Keep my solutions organized
+- Learn Python basics
+- Practice problem solving
+- Keep my solutions organized
 
 ---
