@@ -1,0 +1,12 @@
+In this part, two important Python libraries has been covered: NumPy and Matplotlib.
+
+NumPy:
+- What it is: NumPy (Numerical Python) is a library for numerical computing in Python. It provides the powerful N-dimensional array object (`ndarray`), functions for fast element-wise operations, linear algebra, random number generation and tools for integrating C/C++ and Fortran code.
+- Why we use it: We use NumPy because it offers fast, memory-efficient arrays and vectorized operations that are much faster than Python lists for numerical tasks. It is the foundation for many scientific and data libraries (e.g., pandas, SciPy) and simplifies mathematical computations and data manipulation.
+
+Matplotlib:
+- What it is: Matplotlib is a plotting library for Python that produces figures in various formats. Its `pyplot` module provides a MATLAB-like interface for creating plots, histograms, bar charts, scatter plots and more.
+- Why we use it: We use Matplotlib to visualize data, which helps in understanding patterns, debugging results and presenting findings. It is highly customizable and integrates well with NumPy arrays for straightforward plotting of numerical data.
+
+How they work together:
+- NumPy handles numerical data and efficient computation; Matplotlib takes that numerical data (often NumPy arrays) and creates visualizations. Together they form a basic toolkit for scientific computing and data analysis in Python.
