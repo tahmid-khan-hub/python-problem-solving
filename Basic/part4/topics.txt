@@ -1,0 +1,74 @@
+Pandas Library (Python)
+
+1. What is Pandas?
+Pandas is a powerful Python library used for data analysis and data manipulation.
+It helps work with structured data such as tables, spreadsheets, or CSV files.
+
+2. Why Pandas is Used
+- Handling large datasets easily
+- Cleaning and preparing data
+- Data analysis and statistics
+- Reading and writing data files (CSV, Excel, JSON)
+- Filtering and transforming data
+
+3. Main Data Structures
+
+a) Series
+A one-dimensional labeled array that can store data like a single column.
+
+Example:
+import pandas as pd
+data = pd.Series([10, 20, 30, 40])
+
+b) DataFrame
+A two-dimensional table with rows and columns (like Excel sheet).
+
+Example:
+import pandas as pd
+
+data = {
+    "Name": ["Alice", "Bob", "Charlie"],
+    "Age": [22, 25, 23]
+}
+
+df = pd.DataFrame(data)
+
+4. Common Pandas Operations
+
+a) Reading Data
+df = pd.read_csv("data.csv")
+
+b) Viewing Data
+df.head()      # first 5 rows
+df.tail()      # last 5 rows
+df.info()      # dataset information
+
+c) Selecting Columns
+df["Name"]
+
+d) Filtering Data
+df[df["Age"] > 23]
+
+e) Adding New Column
+df["Age_after_5_years"] = df["Age"] + 5
+
+5. Important Pandas Functions
+- head()
+- tail()
+- info()
+- describe()
+- groupby()
+- sort_values()
+
+6. Advantages of Pandas
+- Fast data processing
+- Easy data cleaning
+- Works well with NumPy
+- Widely used in Data Science and Machine Learning
+
+7. Where Pandas is Used
+- Data Science
+- Machine Learning
+- Financial analysis
+- Data visualization preparation
+- AI projects
